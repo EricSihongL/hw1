@@ -2,20 +2,34 @@
 
 //Control red dot with following commands
 
-|Right
-|Right
+right();
+right();
 
-[Recipe](1);
-Repeat if getcolor Blue
-|Down 
-|Right
-|Right
-else
-|up
-|Right
-|Right
-
-|Right
+if(getColor()=="red") {
+	up();
+}
+if(getColor()=="blue") {
+	down();
+}
+right();
+right();
+if(getColor()=="red") {
+	up();
+}
+if(getColor()=="blue") {
+	down();
+}
+right();
+right();
+if(getColor()=="red") {
+	up();
+}
+if(getColor()=="blue") {
+	down();
+}
+right();
+right();
+right();
 //Interact the red dot's enviorment using the following commands:
 //remainingdots();
 //getcolor();
